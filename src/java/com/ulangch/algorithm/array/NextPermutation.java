@@ -11,6 +11,8 @@ package com.ulangch.algorithm.array;
  1,2,3 → 1,3,2
  3,2,1 → 1,2,3
  1,1,5 → 1,5,1
+
+ https://leetcode-cn.com/problems/next-permutation/
  */
 public class NextPermutation {
 
