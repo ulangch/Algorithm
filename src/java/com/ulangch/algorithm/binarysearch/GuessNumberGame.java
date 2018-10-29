@@ -1,4 +1,4 @@
-package com.ulangch.algorithm.easy;
+package com.ulangch.algorithm.binarysearch;
 
 class GuessGame {
     static int supposed = 67;
