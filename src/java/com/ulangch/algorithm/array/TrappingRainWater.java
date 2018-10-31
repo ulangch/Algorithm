@@ -19,11 +19,35 @@ package com.ulangch.algorithm.array;
 
 public class TrappingRainWater {
 
+    /**
+     双指针方法. (自写)
+     */
     public int trap(int[] height) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < height.length - 2; i++) {
+            if (height[i] <= height[i + 1]) {
+                continue;
+            }
+            // 下一个高点，永远只考虑升序带来的收益
+            // 降序的情况在下一次遍历i时会覆盖
+            int peek = 0;
+            for (int j = i+1; j < height.length; j++) {
+                int cur = height[j];
+                if (cur <= peek) {
+                    continue;
+                }
+                sum += (Math.min(height[i], cur) - peek) * (j - i - 1);
+                peek = cur;
+                if (cur >= height[i]) {
+                    break;
+                }
+            }
+        }
+        return sum;
     }
 
     public static void main(String[] args) {
-
+        TrappingRainWater soln = new TrappingRainWater();
+        System.out.println(soln.trap(new int[] {0,1,0,2,1,0,1,3,2,1,2,1}));
     }
 }
