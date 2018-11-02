@@ -15,21 +15,29 @@ package com.ulangch.algorithm.linkedlist;
 
 public class SwapNodesInPairs {
 
+    /**
+     * 思想：每两个一跳，需要记录前一个和前前个
+     * 以四个元素为一组进行指针变换
+     */
     public ListNode swapPairs(ListNode head) {
-        ListNode cur = head;
-        ListNode pre = null;
-        ListNode res = null;
+        if (head == null || head.next == null) return head;
+        ListNode cur = head.next;
+        ListNode pre = head;
+        ListNode prepre = null;
+        ListNode res = cur;
         while (cur != null) {
             ListNode next = cur.next;
-            if (pre == null) {
-                res = next;
+            if (prepre != null) {
+                prepre.next = cur;
             }
             cur.next = pre;
-            if (pre!= null && next != null) {
-                pre.next = next;
+            pre.next = next;
+            if (next == null || next.next == null) {
+                break;
             }
-            pre = cur;
-            cur = next;
+            prepre = pre;
+            pre = next;
+            cur = next.next;
         }
         return res;
     }

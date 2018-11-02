@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8edb2891-0591-462f-bef1-ca82f1f21572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeKSortedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeTwoSortedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/RemoveNthNodeFromEnd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ulangch/algorithm/linkedlist/CycleLinkedList2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ulangch/algorithm/linkedlist/CycleLinkedList2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +57,8 @@
       <file leaf-file-name="SwapNodesInPairs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="335">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -179,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
@@ -488,7 +483,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -818,7 +813,7 @@
         <state relative-caret-position="336">
           <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -951,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
