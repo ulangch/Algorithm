@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8edb2891-0591-462f-bef1-ca82f1f21572" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseNodesInKGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="546">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -27,8 +28,8 @@
       <file leaf-file-name="RemoveNthNodeFromEnd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/RemoveNthNodeFromEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="59" column="21" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="148">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -37,8 +38,8 @@
       <file leaf-file-name="MergeTwoSortedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeTwoSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-694">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="-105">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -47,28 +48,38 @@
       <file leaf-file-name="MergeKSortedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeKSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
+            <state relative-caret-position="400">
               <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwapNodesInPairs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SwapNodesInPairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="777">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseLinkedList2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReverseNodesInKGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseNodesInKGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseLinkedList2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseLinkedList2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="169">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -77,8 +88,8 @@
       <file leaf-file-name="CycleLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/CycleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -87,8 +98,8 @@
       <file leaf-file-name="CycleLinkedList2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/CycleLinkedList2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="69" column="21" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="1449">
+              <caret line="69" column="21" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -120,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/dynamicplan/README" />
         <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/dualpointer/README" />
         <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/designing/README" />
         <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/binarysearch/README" />
@@ -171,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeTwoSortedList.java" />
         <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeKSortedList.java" />
         <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java" />
+        <option value="$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseNodesInKGroup.java" />
       </list>
     </option>
   </component>
@@ -196,6 +207,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,10 +256,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwapNodesInPairs">
+  <component name="RunManager" selected="Application.ReverseNodesInKGroup">
     <configuration name="CycleLinkedList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -328,14 +339,14 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="SpiralMatrix2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseNodesInKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ulangch.algorithm.array.*" />
+          <option name="PATTERN" value="com.ulangch.algorithm.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ulangch.algorithm.array.SpiralMatrix2" />
+      <option name="MAIN_CLASS_NAME" value="com.ulangch.algorithm.linkedlist.ReverseNodesInKGroup" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -448,19 +459,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SpiralMatrix2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CycleLinkedList2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RemoveNthNodeFromEnd" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SwapNodesInPairs" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CycleLinkedList2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RemoveNthNodeFromEnd" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SwapNodesInPairs" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReverseNodesInKGroup" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SwapNodesInPairs" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RemoveNthNodeFromEnd" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CycleLinkedList2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SpiralMatrix2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReverseNodesInKGroup" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SwapNodesInPairs" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MergeTwoSortedList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RemoveNthNodeFromEnd" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CycleLinkedList2" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +494,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -495,7 +506,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -534,7 +545,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -552,13 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/designing/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/binarysearch/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -704,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-83">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-566">
           <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,11 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1105#1106#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,15 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
           <caret line="91" column="56" lean-forward="false" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/CycleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,62 +853,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
           <caret line="61" column="26" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="61" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/CycleLinkedList2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="1449">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseLinkedList2.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/CycleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/RemoveNthNodeFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="59" column="21" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="59" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeKSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeTwoSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-694">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="148">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="546">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeTwoSortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/MergeKSortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/SwapNodesInPairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="777">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseNodesInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ulangch/algorithm/linkedlist/ReverseLinkedList2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>
