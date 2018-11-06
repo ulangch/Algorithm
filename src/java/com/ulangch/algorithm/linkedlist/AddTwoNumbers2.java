@@ -53,6 +53,7 @@ public class AddTwoNumbers2 {
             cur1 = cur1.next;
             cur2 = cur2.next;
         }
+        print(first);
         return mergeRecursive(first, 0);
     }
 
@@ -66,11 +67,15 @@ public class AddTwoNumbers2 {
         } else {
             ListNode next = cur.next;
             ListNode res = mergeRecursive(next, ind + 1);
+            System.out.print("[" + cur.val + ", " + next.val + ", " + res.val + "]: ");
+            print(res);
             int val = cur.val;
             if (next.val != res.val) {
                 res.next = next.next;
                 cur.next = res;
-                val++;
+                if (res.val < next.val) {
+                    val++;
+                }
             }
             ListNode tmp = new ListNode(-1);
             if (val >= 10) {
@@ -84,5 +89,31 @@ public class AddTwoNumbers2 {
             }
             return cur;
         }
+    }
+
+    private void print(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val + " ");
+            head = head.next;
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        AddTwoNumbers2 soln = new AddTwoNumbers2();
+        ListNode l1 = new ListNode(7);
+        ListNode l2 = new ListNode(2);
+        ListNode l3 = new ListNode(4);
+        ListNode l4 = new ListNode(3);
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+
+        ListNode r1 = new ListNode(5);
+        ListNode r2 = new ListNode(6);
+        ListNode r3 = new ListNode(4);
+        r1.next = r2;
+        r2.next = r3;
+        soln.print(soln.addTwoNumbers(l1, r1));
     }
 }
