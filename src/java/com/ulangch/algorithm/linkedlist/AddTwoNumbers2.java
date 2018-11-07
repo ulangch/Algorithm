@@ -15,6 +15,11 @@ package com.ulangch.algorithm.linkedlist;
  */
 public class AddTwoNumbers2 {
 
+    /**
+     * 1. 对齐两个链表
+     * 2. 迭代相加对齐部分
+     * 3. 进位
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int length1 = 0, length2 = 0;
         ListNode cur1 = l1, cur2 = l2;
@@ -28,7 +33,7 @@ public class AddTwoNumbers2 {
         }
         int step = length1 - length2;
         cur1 = l1; cur2 = l2;
-        ListNode first, left;
+        ListNode first = null, left = null;
         if (step > 0) {
             while (step > 1) {
                 cur1 = cur1.next;
@@ -37,8 +42,8 @@ public class AddTwoNumbers2 {
             first = l1;
             left = cur1;
             cur1 = cur1.next;
-        } else {
-            while (step < 1) {
+        } else if (step < 0){
+            while (step < -1) {
                 cur2 = cur2.next;
                 step++;
             }
@@ -48,13 +53,23 @@ public class AddTwoNumbers2 {
         }
         while (cur1 != null) {
             ListNode tmp = new ListNode(cur1.val + cur2.val);
-            left.next = tmp;
-            left = tmp;
+            if (left == null) {
+                left = tmp;
+                first = tmp;
+            } else {
+                left.next = tmp;
+                left = tmp;
+            }
             cur1 = cur1.next;
             cur2 = cur2.next;
         }
-        print(first);
-        return mergeRecursive(first, 0);
+        ListNode res = mergeRecursive(first, 0);
+        if (res.val < first.val) {
+            ListNode merge = new ListNode(1);
+            merge.next = res;
+            return merge;
+        }
+        return res;
     }
 
     private ListNode mergeRecursive(ListNode cur, int ind) {
@@ -67,8 +82,6 @@ public class AddTwoNumbers2 {
         } else {
             ListNode next = cur.next;
             ListNode res = mergeRecursive(next, ind + 1);
-            System.out.print("[" + cur.val + ", " + next.val + ", " + res.val + "]: ");
-            print(res);
             int val = cur.val;
             if (next.val != res.val) {
                 res.next = next.next;
@@ -101,19 +114,11 @@ public class AddTwoNumbers2 {
 
     public static void main(String[] args) {
         AddTwoNumbers2 soln = new AddTwoNumbers2();
-        ListNode l1 = new ListNode(7);
-        ListNode l2 = new ListNode(2);
-        ListNode l3 = new ListNode(4);
-        ListNode l4 = new ListNode(3);
-        l1.next = l2;
-        l2.next = l3;
-        l3.next = l4;
+        ListNode l1 = new ListNode(0);
 
-        ListNode r1 = new ListNode(5);
-        ListNode r2 = new ListNode(6);
-        ListNode r3 = new ListNode(4);
+        ListNode r1 = new ListNode(7);
+        ListNode r2 = new ListNode(3);
         r1.next = r2;
-        r2.next = r3;
         soln.print(soln.addTwoNumbers(l1, r1));
     }
 }
