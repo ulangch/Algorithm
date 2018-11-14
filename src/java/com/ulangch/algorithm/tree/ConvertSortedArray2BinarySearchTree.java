@@ -21,7 +21,7 @@ package com.ulangch.algorithm.tree;
  */
 public class ConvertSortedArray2BinarySearchTree {
     public TreeNode sortedArrayToBST(int[] nums) {
-
+        return null;
     }
 
 }
