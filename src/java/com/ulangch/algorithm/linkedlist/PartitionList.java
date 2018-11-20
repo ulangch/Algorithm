@@ -30,10 +30,8 @@ public class PartitionList {
                 } else {
                     pre.next = next;
                 }
-                ListNode tmp = lastInsert.next;
+                cur.next = lastInsert.next;
                 lastInsert.next = cur;
-                cur.next = tmp;
-                lastInsert = cur;
                 cur = next;
             } else {
                 if (lastInsert.next == null) {
