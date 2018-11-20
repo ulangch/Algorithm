@@ -15,9 +15,9 @@ public class ConstructBinaryTree {
                 TreeNode t = new TreeNode(nums[i]);
                 TreeNode p = list.get((i + 1) / 2 - 1);
                 if (i % 2 == 0) {
-                    p.left = t;
-                } else {
                     p.right = t;
+                } else {
+                    p.left = t;
                 }
                 list.add(t);
             }

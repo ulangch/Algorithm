@@ -18,15 +18,6 @@ package com.ulangch.algorithm.linkedlist;
  * 使用Hash表，保存已经被遍历过的node，如果再次被遍历，则说明存在环形列表
  */
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
-
 public class CycleLinkedList {
 
     /** 使用快慢指针来实现*/

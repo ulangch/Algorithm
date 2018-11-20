@@ -1,17 +1,31 @@
-package com.ulangch.algorithm.array;
+package com.ulangch.algorithm.string;
 
+/**
+ * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+ * <p>
+ * 示例 1：
+ * 输入: "babad"
+ * 输出: "bab"
+ * 注意: "aba" 也是一个有效答案。
+ * <p>
+ * 示例 2：
+ * 输入: "cbbd"
+ * 输出: "bb"
+ * <p>
+ * https://leetcode-cn.com/problems/longest-palindromic-substring/
+ */
 public class LongestPalindrome {
 
     /**
      * 以每个index为中心找到最长回文 O(n2)
      */
-    public String longest(String str) {
+    public String longest(String s) {
         int j, len, maxLen = 0, maxInd = 0;
-        for (int i = 1; i < str.length(); i++) {
+        for (int i = 1; i < s.length(); i++) {
             j = i + 1;
             len = 0;
-            while (j < str.length() && (2 * i - j >= 0)) {
-                if (str.charAt(j) == str.charAt(2 * i - j)) {
+            while (j < s.length() && (2 * i - j >= 0)) {
+                if (s.charAt(j) == s.charAt(2 * i - j)) {
                     len++;
                 }
                 j++;
@@ -21,21 +35,22 @@ public class LongestPalindrome {
                 maxInd = i;
             }
         }
-        return str.substring(maxInd - maxLen, maxInd + maxLen + 1);
+        return s.substring(maxInd - maxLen, maxInd + maxLen + 1);
     }
 
     /**
      * manacher算法 O(n)
-     *
+     * <p>
      * https://www.jianshu.com/p/494d7603cac4
      * https://www.cnblogs.com/z360/p/6375514.html
      */
-    public String manacher(String str) {
+    public String manacher(String s) {
+        if (s.length() <= 1) return s;
         // 将字符串填充成奇数
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             sb.append("#");
-            sb.append(str.charAt(i));
+            sb.append(s.charAt(i));
         }
         sb.append("#");
         // ----------------------------------
