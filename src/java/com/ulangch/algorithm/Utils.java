@@ -2,6 +2,8 @@ package com.ulangch.algorithm;
 
 import com.ulangch.algorithm.linkedlist.ListNode;
 
+import java.util.List;
+
 public class Utils {
 
     public static void print(int[] nums) {
@@ -27,5 +29,13 @@ public class Utils {
             dummy = dummy.next;
         }
         return res.next;
+    }
+
+    public static String ToString(List<Character> list) {
+        StringBuilder sb = new StringBuilder();
+        for (Character c : list) {
+            sb.append(c);
+        }
+        return sb.toString();
     }
 }

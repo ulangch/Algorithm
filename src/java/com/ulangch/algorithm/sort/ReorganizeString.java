@@ -20,6 +20,41 @@ package com.ulangch.algorithm.sort;
 public class ReorganizeString {
 
     public String reorganizeString(String S) {
+        if (S == null || S.isEmpty()) return "";
+        int[] count = new int[26];
+        char[] ret = new char[S.length()];
+        int max = 0;
+        for (int i = 0; i < S.length(); i++) {
+            char c = S.charAt(i);
+            count[c - 'a']++;
+            if (max < count[c - 'a']) {
+                max = count[c - 'a'];
+            }
+        }
+        // 当字符个数 * 2 大于总长度一半时
+        if (max * 2 > S.length() + 1) return "";
 
+        int odd = 1, even = 0;
+        for (int i = 0; i < 26; i++) {
+            // index为奇数的位置小于index为偶数的位置
+            // 所以把少量的填充在index为奇数的位置
+            while (count[i] > 0 && count[i] < S.length() / 2 + 1 && odd < S.length()) {
+                ret[odd] = (char) (i + 'a');
+                odd += 2;
+                count[i]--;
+            }
+            while (count[i] > 0) {
+                ret[even] = (char) (i + 'a');
+                even += 2;
+                count[i]--;
+            }
+        }
+        return new String(ret);
+    }
+
+    public static void main(String[] args) {
+        ReorganizeString soln = new ReorganizeString();
+        System.out.println(soln.reorganizeString("aab"));
+        System.out.println(soln.reorganizeString("baaba"));
     }
 }
